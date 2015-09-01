@@ -13,6 +13,7 @@
 		38E94D3E1B962D0100945E86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E94D3D1B962D0100945E86 /* Images.xcassets */; };
 		38E94D411B962D0100945E86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E94D3F1B962D0100945E86 /* LaunchScreen.xib */; };
 		38E94D4D1B962D0100945E86 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E94D4C1B962D0100945E86 /* TaskItTests.swift */; };
+		38E94D591B96374800945E86 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E94D581B96374800945E86 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		38E94D461B962D0100945E86 /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E94D4B1B962D0100945E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38E94D4C1B962D0100945E86 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
+		38E94D581B96374800945E86 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskCell.swift; path = ../TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				38E94D361B962D0100945E86 /* AppDelegate.swift */,
 				38E94D381B962D0100945E86 /* ViewController.swift */,
+				38E94D581B96374800945E86 /* TaskCell.swift */,
 				38E94D3A1B962D0100945E86 /* Main.storyboard */,
 				38E94D3D1B962D0100945E86 /* Images.xcassets */,
 				38E94D3F1B962D0100945E86 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E94D391B962D0100945E86 /* ViewController.swift in Sources */,
+				38E94D591B96374800945E86 /* TaskCell.swift in Sources */,
 				38E94D371B962D0100945E86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
